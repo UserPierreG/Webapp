@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,16 +7,22 @@
     cursor: none;
 }
 
-.custom-cursor {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 16px;
-    height: 16px;
+#trailer {
+    height: 20px;
+    width: 20px;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 20px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 10000;
     pointer-events: none;
-    z-index: 9999;
+    opacity: 0;
+    transition: opacity 500ms ease;
+}
+
+body:hover > #trailer {
+    opacity: 1;
 }
 
 body {
