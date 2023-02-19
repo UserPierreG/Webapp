@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/181c3d2e61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/181c3d2e61.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="myscript.js"></script>
-</head>
-<body>
-    <div id="trailer">
-    </div>
-    <div class="wrapper">
-        <header>
-            <ul>
-                <li><a href="page1.html">Home</a></li>
-                <li><a href="page2.html">About</a></li>
-                <li><a href="page3.html">Forum</a></li>
-                <li><a href="page4.html">Contact</a></li>
-            </ul>
-            <img src="imgs/Background.png" class="background">
-            <img src="imgs/4-Ground.png" class="ground4">
-            <img src="imgs/3-Ground.png" class="ground3">
-            <img src="imgs/2-Ground.png" class="ground2">
-            <img src="imgs/1-Ground.png" class="ground1">
-            <img src="imgs/Logo.png" class="logo">
-        </header>
-        <section>
-            <i class="fa fa-search"></i>
-            <i class="fa-solid fa-mug-saucer"></i>
-            hello
-        </section>
-        <form action="/submit-form" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Send</button>
-          </form>
-        <footer>
-            <p>&copy; 2023 GreenDrive Hub. All rights reserved.</p>
-        </footer>
-    </div>
-</body>
+  </head>
+  <div class="custom_cursor"></div>
 
+  <body>
+    <div class="wrapper">
+      <header class="main_header">
+        <ul class="main_nav">
+          <li><a href="error.html" class="nav_button">Empty</a></li>
+          <li><a href="error.html" class="nav_button">Empty</a></li>
+          <li><a href="news.html" class="nav_button">News</a></li>
+          <li><a href="error.html" class="nav_button">Empty</a></li>
+        </ul>
+        <img src="imgs/Background.png" class="background" />
+        <img src="imgs/4-Ground.png" class="ground4" />
+        <img src="imgs/3-Ground.png" class="ground3" />
+        <img src="imgs/2-Ground.png" class="ground2" />
+        <img src="imgs/1-Ground.png" class="ground1" />
+        <img src="imgs/Logo.png" class="logo" />
+      </header>
+      <section>
+        <i class="fa fa-search"></i>
+        <i class="fa-solid fa-mug-saucer"></i>
+        hello
+      </section>
+      <form action="/submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="form_button">Send</button>
+      </form>
+      <footer>
+        <p>&copy; 2023 GreenDrive Hub. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
 </html>
