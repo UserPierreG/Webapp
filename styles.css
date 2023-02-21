@@ -107,6 +107,20 @@ body {
 
 /* Main Header End */
 
+.image_stack {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #e8f1d4;
+}
+
+.image_stack img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /* Contact Us Begin */
 
 form,
@@ -220,9 +234,8 @@ textarea {
 }
 
 .empty {
-  padding: 1000px ;
+  padding: 1000px;
 }
-
 
 /* News Page End */
 
